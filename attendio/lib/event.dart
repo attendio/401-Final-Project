@@ -1,5 +1,14 @@
 import 'package:flutter/material.dart';
 
+class Event {
+  String name;
+  DateTime datetime;
+  String description;
+  bool active;
+  String username;
+  String dynamicLink;
+}
+
 class EventScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
